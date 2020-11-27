@@ -196,3 +196,7 @@ button:active {
   text-align: center;
   font-size: 0.8em;
 }
+
+option:checked {
+	background-color: rgb(107, 175, 231);
+}
