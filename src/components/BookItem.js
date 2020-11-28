@@ -35,9 +35,7 @@ class BookItem extends Component {
 			* @param {string} value
 			*/
 			BooksAPI.update(book, value).then(() => {
-				if (updateShelf) {
-					updateShelf(book, value);
-				} 
+				updateShelf(book, value);
 			}).catch(error => {
 				console.log(error);
 			})
@@ -75,7 +73,7 @@ class BookItem extends Component {
 
 BookItem.propTypes = {
 	book: PropTypes.object.isRequired,
-	updateShelf: PropTypes.func
+	updateShelf: PropTypes.func.isRequired,
 }
 
 export default BookItem;

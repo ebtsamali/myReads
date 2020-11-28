@@ -1,5 +1,9 @@
 # MyReads Project
 
+This repository contains the files related to the App. The master branch contains the app's source code.
+
+The App is a Web application that has Two pages. The first page(main page) displays your library with three shelves (Currently Reading, Want to Read, and Read), and each shelf has books. Also, you can change the bookshelf. The second page has a text input that is used to find books. As the value of the text input changes, the books that match that query are displayed on the page, along with a control that lets you add the book. 
+
 
 ## Installation
 
